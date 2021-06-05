@@ -26,13 +26,20 @@ class Shoe
     @size
   end
  
-  def genre=(genre)
-    @genre = genre
+  def material=(material)
+    @material = material
   end
  
-  def genre
-    @genre
+  def material
+    @material
   end
+  
+  def condition=(condition)
+    @condition = condition
+    
+  def condition
+    @condition
+  end 
  
   def cobble
     puts "The shoe has been repaired"

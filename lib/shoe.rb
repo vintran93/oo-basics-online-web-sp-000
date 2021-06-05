@@ -18,8 +18,8 @@ class Shoe
     @color
   end
  
-  def page_count=(num)
-    @page_count = num
+  def size=(size)
+    @size = size
   end
  
   def page_count
@@ -34,8 +34,8 @@ class Shoe
     @genre
   end
  
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
+  def cobble
+    puts "The shoe has been repaired"
   end
  
 end
